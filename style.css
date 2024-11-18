@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
-    background: tan;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #444;
+}
+
+main {
+    height: 100%;
+    flex-grow: 1;
 }
