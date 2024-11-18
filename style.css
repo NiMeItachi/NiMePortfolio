@@ -9,10 +9,61 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #444;
+    background: #022331;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
     height: 100%;
     flex-grow: 1;
+}
+
+main .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content {
+    color: white;
+}
+
+.title {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.subtitle {
+    text-align: center;
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer__link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s all ease-in 0s;
+}
+
+.footer__link:hover {
+    transform: scale(1.2);
 }
